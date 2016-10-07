@@ -11,9 +11,19 @@
 @p3 = $ages{"Angie"};
 @p4 = $ages{"Willy"};
 @p5 = $ages{"The Queen Mother"};
+
 	
 print("Age Michael Caine: @p1\n");
 print("Age Dirty Den: @p2\n");
 print("Age Angie: @p3\n");
 print("Age Willy: @p4\n");
 print("Age The Queen Mother: @p5\n");
+
+foreach $person (keys %ages)
+{
+	print "I know the age of $person\n";
+}
+foreach $age (values %ages)
+{
+	print "Somebody is $age\n";
+}
