@@ -9,3 +9,9 @@
 	print $_;
 	print ":\n:";
 }
+	print "\n";
+foreach('Bob','Mary','Peter', 'Wendy','Tiffany') {
+	
+		print $_;
+	print ":";
+}
