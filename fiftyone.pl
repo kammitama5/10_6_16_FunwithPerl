@@ -3,3 +3,8 @@
 	print $_;
 	print "\n";
 }
+
+foreach('Bob','Mary','Peter', 'Wendy','Tiffany') {
+	print $_;
+	print ":\n:";
+}
